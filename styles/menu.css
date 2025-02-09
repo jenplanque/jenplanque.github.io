@@ -1,0 +1,81 @@
+/* stylesheet for Menu page to help better organize code */
+
+.menu-box {
+	width: 90%;
+	max-width: 1200px;
+	padding: 20px;
+	/* margin: 30px; */
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(1, 1, 1, 0.3);
+	border-radius: 8px;
+	margin: auto;
+}
+
+.menu h1 {
+	font-family: "Trebuchet MS", sans-serif;
+	text-align: center;
+	font-size: 50px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+thead th {
+	text-align: left;
+	font-size: 24px;
+	border-bottom: 2px solid #333;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+tfoot th {
+	border-top: 2px solid #333;
+	padding-top: 10px;
+}
+
+.dish-row td {
+	padding: 10px;
+	vertical-align: top;
+}
+
+.dish-name {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.dish-description {
+	font-size: 18px;
+	margin-top: 5px;
+	font-weight: 300;
+}
+
+.price {
+	text-align: right;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.sub-description {
+	list-style-type: none;
+	font-weight: 500;
+	padding-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.sub-description li {
+	font-style: italic;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #e0e0e0;
+}
